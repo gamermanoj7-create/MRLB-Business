@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings" android:textSize="28sp" android:textStyle="bold"/>
+<Button android:id="@+id/pin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🔐 Set / Change PIN"/>
+<Button android:id="@+id/backup" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💾 Encrypted Backup"/>
+<Button android:id="@+id/restore" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📂 Restore Backup"/>
+<Button android:id="@+id/exportPdf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📄 Export PDF"/>
+<Button android:id="@+id/exportCsv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📊 Export CSV / Excel"/>
+<Button android:id="@+id/whatsapp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📲 WhatsApp"/>
+</LinearLayout>

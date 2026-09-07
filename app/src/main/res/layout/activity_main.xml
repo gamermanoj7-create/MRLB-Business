@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="28sp" android:textStyle="bold"/>
+<TextView android:id="@+id/sales" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sales ₹0" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/collection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Collected ₹0" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/due" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Due ₹0" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/expense" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Expense ₹0" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/profit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Estimated Profit ₹0" android:textSize="20sp" android:textStyle="bold" android:padding="8dp"/>
+<Button android:id="@+id/customers" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="👥 Customers"/>
+<Button android:id="@+id/orders" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📦 Orders / Invoice"/>
+<Button android:id="@+id/payments" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💰 Payments / Due"/>
+<Button android:id="@+id/expenses" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💸 Expenses"/>
+<Button android:id="@+id/settings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="⚙️ Settings / PIN"/>
+</LinearLayout>
